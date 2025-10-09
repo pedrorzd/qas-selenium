@@ -60,8 +60,6 @@ class produtosExibidos {
 
         Wait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
-        variaveis
-
         WebElement abrirCesta = driver.findElement(By.xpath("//i[@class='newicon-basket']"));
         wait.until(ExpectedConditions.elementToBeClickable(abrirCesta));
         abrirCesta.click();
